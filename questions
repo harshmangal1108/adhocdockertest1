@@ -2,13 +2,13 @@
 ```
 mkdir question1
 cd question1
-vim dockerfile
+vim Dockerfile
 ```
 # add follwing in docker file
 ```
 from apline
 maintainer harsh
-cmd echo `date + "%H:%M:%S"
+cmd echo `date + "%H:%M:%S">question1.txt
 ```
 # to build image and run conatiner
 ``` 
