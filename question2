@@ -1,0 +1,6 @@
+### task 2
+```
+docker build -t adhoc:harshmangal https://github.com/redashu/summer2020dockertest.git
+docker tag adhoc:harshmangal harshdocker11/adhoc:harshmangal
+docker push harshdocker11/adhoc:harshmangal
+```
