@@ -1,5 +1,4 @@
 ### task3
-```
 docker pull dockerashu/ckad:v2
 docker run -itd --name harshmangalc3q3 -p 5656:80 dockerashu/ckad:v2
-```
+
