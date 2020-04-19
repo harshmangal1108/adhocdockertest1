@@ -1,0 +1,5 @@
+### task 5
+```
+docker run -itd --name harshmangalc5q5 -v harshq5:/adhocvol -v /etc/passwd:/user.txt alpine sh
+cat user.txt | wc -l >./adhovol/userscount.txt 
+```
