@@ -1,9 +1,8 @@
 ## task 4
-```
 vim q4.dockerfile
 docker build -t harshmangal:q4 -f q4.dockerfile .
 docker run -itd --name harshmangalc4q4 -p 6556:80 harshmangal:q4
 docker login
 docker tag harshmangal:q4 harshdocker11/harshmangal:q4
 docker push harshdocker11/harshmangal:q4
-```
+
