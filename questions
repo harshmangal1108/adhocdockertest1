@@ -1,0 +1,17 @@
+## task 1
+```
+mkdir question1
+cd question1
+vim dockerfile
+```
+# add follwing in docker file
+```
+from apline
+maintainer harsh
+cmd echo `date + "%H:%M:%S"
+```
+# to build image and run conatiner
+``` 
+docker build -t alpine:harsh .
+docker run -itd --name harshc1q1 alpine:harsh 
+```
